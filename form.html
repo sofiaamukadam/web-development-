@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2 class="logo">MyWebsite.</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="form-section">
+        <div class="form-container">
+            <h1>Contact Us</h1>
+            <p>Fill out the form and get in touch with us.</p>
+
+            <form id="contactForm">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+                <label for="subject">Subject</label>
+                <select id="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Support">Support</option>
+                    <option value="Feedback">Feedback</option>
+                </select>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn">Submit Form</button>
+
+            </form>
+
+
+
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 MyWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
